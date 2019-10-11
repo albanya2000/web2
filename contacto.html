@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Materialize</title>
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<!-- Iconos -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/mediaqueries.css">
+</head>
+<body>
+	<header>
+		<!-- NAVBAR -->
+		<nav>
+			<div class="nav-wrapper pink darken-1">
+				<a href="#!" class="brand-logo">
+					<img src="img/icons8-facebook-circled-48.png" alt="">
+				</a>
+				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="index.html">Inicio</a></li>
+					<!-- Dropdown Trigger -->
+					<li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Departamentos<i class="material-icons right">arrow_drop_down</i></a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+					
+				</ul>
+			</div>
+		</nav>
+		<!-- Lista de Sidenav -->
+		<ul class="sidenav" id="mobile-demo">
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+			<li><a href="ella.html">ella</a></li>
+			<li><a href="ella.html">two</a></li>
+			<li class="divider"></li>
+			<li><a href="ella.html">three</a></li>
+		</ul>
+		<!-- Lista de Dropdown -->
+		<ul id="dropdown1" class="dropdown-content">
+			<li><a href="ella.html">ella</a></li>
+			<li><a href="ella.html">two</a></li>
+			<li class="divider"></li>
+			<li><a href="ella.html">three</a></li>
+		</ul>
+
+	</header>
+	<main>
+<dir class="container">
+	<div class="row">
+	    <div class="col s12">
+	      <div class="row">
+	        <div class="input-field col s12">
+	          <i class="material-icons prefix">textsms</i>
+	          <input type="text" id="autocomplete-input" class="autocomplete">
+	          <label for="autocomplete-input">Autocomplete</label>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	        
+</dir>
+	</main>
+	
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/materialize.min.js"></script>
+<script src="js/app.js"></script>
+</html>

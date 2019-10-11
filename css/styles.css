@@ -1,0 +1,36 @@
+ body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+      
+
+ body {
+    font-family: monospace;
+  }
+
+ .brand-logo{
+  	margin: .5%;
+ }
+
+ .carousel{
+	height: 50%;
+}
+
+.carousel-item img{
+	height: 100%;
+}
+
+.mosaico img{
+	width: 100%;
+
+}
+
+.mosaico{
+	padding: 0 !important;
+}
+

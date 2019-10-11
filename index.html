@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Materialize</title>
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<!-- Iconos -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/mediaqueries.css">
+</head>
+<body>
+	<header>
+		<!-- NAVBAR -->
+		<nav>
+			<div class="nav-wrapper pink darken-1">
+				<a href="#!" class="brand-logo">
+					<img src="img/icons8-facebook-circled-48.png" alt="">
+				</a>
+				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="index.html">Inicio</a></li>
+					<!-- Dropdown Trigger -->
+					<li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Departamentos<i class="material-icons right">arrow_drop_down</i></a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+					
+				</ul>
+			</div>
+		</nav>
+		<!-- Lista de Sidenav -->
+		<ul class="sidenav" id="mobile-demo">
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+			<li><a href="ella.html">ella</a></li>
+			<li><a href="ella.html">two</a></li>
+			<li class="divider"></li>
+			<li><a href="ella.html">three</a></li>
+		</ul>
+		<!-- Lista de Dropdown -->
+		<ul id="dropdown1" class="dropdown-content">
+			<li><a href="ella.html">ella</a></li>
+			<li><a href="ella.html">two</a></li>
+			<li class="divider"></li>
+			<li><a href="ella.html">three</a></li>
+		</ul>
+
+	</header>
+	<main>
+		<!-- Slider -->
+		<div class="carousel carousel-slider">
+			<a class="carousel-item slide1" href="#one!">
+				<img src="img/promociones.jpg" alt="">
+			</a>
+			<a class="carousel-item slide2" href="#two!">
+				<img src="img/ropa.jpg" alt="">
+			</a>
+			<a class="carousel-item slide3" href="#three!">
+				<img src="img/electronica.JPG" alt="">
+			</a>
+		</div>
+
+		<h5 class="center-align">Aprovecha nuestras promociones</h5>
+		
+		<!-- mosaico -->
+		<div class="row">
+			<div class="col mosaico l4 m6 s12">
+				<img src="img/deportes.jpg" alt="">
+			</div>
+			<div class="col mosaico l4 m6 s12">
+				<img src="img/deportes.jpg" alt="">
+			</div>
+			<div class="col mosaico l4 m6 s12">
+				<img src="img/deportes.jpg" alt="">
+			</div>
+		</div>
+	</main>
+
+	 <footer class="page-footer">
+          <div class="container center-align">
+           <div class="row">
+           	<div class="col s12">
+           		<h5>Siguenos en nuestras redes sociales</h5>
+
+           </div>
+              </div>
+
+              	<div class="col s12">
+           		<img src="img/icons8-facebook-circled-48.png">
+           		<img src="img/icons8-twitter-48.png">
+           		<img src="img/icons8-linkedin-circled-48.png">
+
+           </div>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
+	
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/materialize.min.js"></script>
+<script src="js/app.js"></script>
+</html>
